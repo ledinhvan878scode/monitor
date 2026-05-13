@@ -1,4 +1,4 @@
-# pip install requests python-dotenv
+# pip instal
 import os
 import time
 import requests
@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-X_BEARER_TOKEN = os.getenv("X_BEARER_TOKEN")
+X_BEARER_TOKEN = os.getenv("c6989e004e5d550788173e6a729ef055f4cf2292")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-KEYWORD = os.getenv("KEYWORD")
+TELEGRAM_CHAT_ID = os.getenv("rANdoM5a7")
+KEYWORD = os.getenv("전자담배")
 
 SEARCH_URL = "https://api.twitter.com/2/tweets/search/recent"
 
